@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+
+	<ScrollView android:id="@+id/scrllvwNo1"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+			<EditText android:id="@+id/team1" android:layout_width="fill_parent"
+				android:background="#00ffff" android:layout_height="wrap_content"
+				android:scrollbars="vertical" />
+
+			<EditText android:id="@+id/team2" android:layout_width="fill_parent"
+				android:background="#00ffff" android:layout_height="wrap_content"
+				android:scrollbars="vertical" />
+
+			<EditText android:id="@+id/team3" android:layout_width="fill_parent"
+				android:background="#ff00ff" android:layout_height="wrap_content"
+				android:scrollbars="vertical" />
+
+			<EditText android:id="@+id/team4" android:layout_width="fill_parent"
+				android:background="#ff00ff" android:layout_height="wrap_content"
+				android:scrollbars="vertical" />
+
+			<EditText android:id="@+id/team5" android:layout_width="fill_parent"
+				android:background="#ffff00" android:layout_height="wrap_content"
+				android:scrollbars="vertical" />
+
+			<EditText android:id="@+id/team6" android:layout_width="fill_parent"
+				android:background="#ffff00" android:layout_height="wrap_content"
+				android:scrollbars="vertical" />
+
+			<EditText android:id="@+id/team7" android:layout_width="fill_parent"
+				android:background="#00ffff" android:layout_height="wrap_content"
+				android:scrollbars="vertical" />
+
+			<EditText android:id="@+id/team8" android:layout_width="fill_parent"
+				android:background="#00ffff" android:layout_height="wrap_content"
+				android:scrollbars="vertical" />
+
+			<EditText android:id="@+id/team9" android:layout_width="fill_parent"
+				android:background="#ff00ff" android:layout_height="wrap_content"
+				android:scrollbars="vertical" />
+
+			<EditText android:id="@+id/team10" android:layout_width="fill_parent"
+				android:background="#ff00ff" android:layout_height="wrap_content"
+				android:scrollbars="vertical" />
+
+			<EditText android:id="@+id/team11" android:layout_width="fill_parent"
+				android:background="#ffff00" android:layout_height="wrap_content"
+				android:scrollbars="vertical" />
+
+			<EditText android:id="@+id/team12" android:layout_width="fill_parent"
+				android:background="#ffff00" android:layout_height="wrap_content"
+				android:scrollbars="vertical" />
+
+			<Button android:id="@+id/confirm" android:text="@string/confirm"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout> 

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FIFA Matches Beta</string>
+    <string name="menu_send_fixture">Send Fixture</string>
+    <string name="menu_send_results">Send Results</string>
+    <string name="menu_show_results">Show Results</string>
+    <string name="menu_reset_results">Reset All</string>
+    <string name="menu_edit_teams">Edit Teams</string>
+    <string name="menu_edit_players">Edit Players</string>
+    <string name="menu_shift_players">Shift Players</string>
+    <string name="game_edit">Enter Score</string>
+    <string name="teams_edit">Edit Teams</string>
+    <string name="players_edit">Edit Players</string>
+    <string name="player_1">Player 1 Name</string>
+    <string name="player_2">Player 2 Name</string>
+    <string name="player_3">Player 3 Name</string>
+    <string name="player_4">Player 4 Name</string>
+    <string name="email_1">Player 1 Email</string>
+    <string name="email_2">Player 2 Email</string>
+    <string name="email_3">Player 3 Email</string>
+    <string name="email_4">Player 4 Email</string>
+    <string name="confirm">Confirm</string>
+    <string name="random_all">Random All</string>
+    <string name="random_club">Random Clubs</string>
+    <string name="random_team">Random National Teams</string>
+    <string name="random_player">Random Players</string>
+</resources>

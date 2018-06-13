@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<TextView android:id="@+id/team1" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textStyle="bold" />
+
+	<EditText android:id="@+id/score1" android:layout_width="wrap_content"
+		android:numeric="decimal"
+		android:maxLength="20"
+		android:layout_height="wrap_content"
+		android:scrollbars="vertical" />
+	
+	<TextView android:id="@+id/team2" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textStyle="bold" />
+		
+	<EditText android:id="@+id/score2" android:layout_width="wrap_content"
+		android:numeric="decimal"
+		android:maxLength="20"
+		android:layout_height="wrap_content"
+		android:scrollbars="vertical" />
+	
+	<Button android:id="@+id/confirm" 
+	  android:text="@string/confirm"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+
+</LinearLayout>

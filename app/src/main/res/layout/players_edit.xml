@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+
+	<ScrollView android:id="@+id/scrllvwNo1"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:text="@string/player_1" />
+			<EditText android:id="@+id/player1" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:scrollbars="vertical" />
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:text="@string/email_1" />
+			<EditText android:id="@+id/email1" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:scrollbars="vertical" />
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:text="@string/player_2" />
+			<EditText android:id="@+id/player2" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:scrollbars="vertical" />
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:text="@string/email_2" />
+			<EditText android:id="@+id/email2" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:scrollbars="vertical" />
+
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:text="@string/player_3" />
+			<EditText android:id="@+id/player3" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:scrollbars="vertical" />
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:text="@string/email_3" />
+			<EditText android:id="@+id/email3" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:scrollbars="vertical" />
+
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:text="@string/player_4" />
+			<EditText android:id="@+id/player4" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:scrollbars="vertical" />
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:text="@string/email_4" />
+			<EditText android:id="@+id/email4" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:scrollbars="vertical" />
+
+			<Button android:id="@+id/confirm" android:text="@string/confirm"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout> 

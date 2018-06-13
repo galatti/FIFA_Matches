@@ -1,0 +1,181 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:2:1-27:12
+MERGED from [com.android.support:design:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\design-28.0.0-alpha3.aar\06f2d17b50ec6130bd5d7d53ea1af6f6\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-alpha3.aar\49024e1fd6c31da4dd777dbf0b577841\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\c2fcae3374f38bc5ccf9fab02d8dae23\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-alpha3.aar\83fcb019584ee3c78f21fd878fac93ce\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-alpha3.aar\d606921390620d503393cac8fc3a1ac7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0-alpha3.aar\823e985ad2dfb39c34463258f35949fe\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-alpha3.aar\d0af1682e72569a7d3862929818c2d33\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-alpha3.aar\b00dacd5bfe7e6aebde8cd8b3c66fe0c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-alpha3.aar\16a109bbfd478634eab0db2ac84d5608\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\transition-28.0.0-alpha3.aar\4aad64565d8d4b808fbe8e822ec02227\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-alpha3.aar\3d936b0d7b9ead2823dd50a90c04bf7a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-alpha3.aar\ec1e884d3ce9c5139e472bc656a51a79\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-alpha3.aar\77cfdc5bcb8bc17804f06fe547661197\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-alpha3.aar\e74be4c730e6f7a971cb63a18e2e2b92\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-alpha3.aar\b6c99219ade3addf95a25cec2c28850c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-alpha3.aar\794a0b776b257dac3735b4c0827bd43d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-alpha3.aar\3ff0e98daf9b70f722fee4945d8e2c6e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-alpha3.aar\5adaf7293b08aa1212fad61cf23c9a64\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-alpha3.aar\04ca290954246f6b7e946c0b39233b20\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:cursoradapter:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-alpha3.aar\105dd3b89a7a3c540c5deaf218b98d8e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0-alpha3.aar\e5396910e965ee23ecc0d6187d6084a3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\917bf3573afaae0e4740697a19048e8f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-alpha3.aar\52b9c6d7d83d771c6822890a5662963b\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:documentfile:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-alpha3.aar\6953197de73589b84596918a32d0e592\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-alpha3.aar\b051b049fce5a32e7c6a1e1abd466ca7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\print-28.0.0-alpha3.aar\fd942746e379770cdeb767b483165e6a\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\0c7c22e4e856bc0f7640e33fee8c6370\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-alpha3.aar\20659285da96cdc02f69893e33c93586\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\c872a489ed07ac968d36f18220bdf634\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\72cbf94cbd5e59da92f2cc02804ea513\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:3:7-31
+		INJECTED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:5:7-32
+		INJECTED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:4:7-30
+		INJECTED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:6:5-24:19
+MERGED from [com.android.support:design:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\design-28.0.0-alpha3.aar\06f2d17b50ec6130bd5d7d53ea1af6f6\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\design-28.0.0-alpha3.aar\06f2d17b50ec6130bd5d7d53ea1af6f6\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\c2fcae3374f38bc5ccf9fab02d8dae23\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\c2fcae3374f38bc5ccf9fab02d8dae23\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-alpha3.aar\04ca290954246f6b7e946c0b39233b20\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-alpha3.aar\04ca290954246f6b7e946c0b39233b20\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-alpha3.aar\52b9c6d7d83d771c6822890a5662963b\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-alpha3.aar\52b9c6d7d83d771c6822890a5662963b\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-alpha3.aar\04ca290954246f6b7e946c0b39233b20\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:6:48-80
+	android:icon
+		ADDED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:6:18-47
+activity#com.games.fifa.FIFAMatches
+ADDED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:7:9-13:20
+	android:label
+		ADDED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:8:19-51
+	android:name
+		ADDED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:7:19-46
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:9:13-12:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:10:17-69
+	android:name
+		ADDED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:10:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:11:17-77
+	android:name
+		ADDED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:11:27-74
+activity#com.games.fifa.GameEdit
+ADDED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:14:9-16:14
+	android:label
+		ADDED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:15:7-40
+	android:name
+		ADDED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:14:19-43
+activity#com.games.fifa.TeamsEdit
+ADDED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:17:3-19:14
+	android:label
+		ADDED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:18:7-41
+	android:name
+		ADDED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:17:13-38
+activity#com.games.fifa.PlayersEdit
+ADDED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:20:3-22:14
+	android:label
+		ADDED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:21:7-41
+	android:name
+		ADDED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:20:13-40
+uses-sdk
+ADDED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:25:5-43
+INJECTED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:25:5-43
+INJECTED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:25:5-43
+MERGED from [com.android.support:design:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\design-28.0.0-alpha3.aar\06f2d17b50ec6130bd5d7d53ea1af6f6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\design-28.0.0-alpha3.aar\06f2d17b50ec6130bd5d7d53ea1af6f6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-alpha3.aar\49024e1fd6c31da4dd777dbf0b577841\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-alpha3.aar\49024e1fd6c31da4dd777dbf0b577841\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\c2fcae3374f38bc5ccf9fab02d8dae23\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\c2fcae3374f38bc5ccf9fab02d8dae23\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-alpha3.aar\83fcb019584ee3c78f21fd878fac93ce\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-alpha3.aar\83fcb019584ee3c78f21fd878fac93ce\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-alpha3.aar\d606921390620d503393cac8fc3a1ac7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-alpha3.aar\d606921390620d503393cac8fc3a1ac7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0-alpha3.aar\823e985ad2dfb39c34463258f35949fe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0-alpha3.aar\823e985ad2dfb39c34463258f35949fe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-alpha3.aar\d0af1682e72569a7d3862929818c2d33\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-alpha3.aar\d0af1682e72569a7d3862929818c2d33\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-alpha3.aar\b00dacd5bfe7e6aebde8cd8b3c66fe0c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-alpha3.aar\b00dacd5bfe7e6aebde8cd8b3c66fe0c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-alpha3.aar\16a109bbfd478634eab0db2ac84d5608\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-alpha3.aar\16a109bbfd478634eab0db2ac84d5608\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\transition-28.0.0-alpha3.aar\4aad64565d8d4b808fbe8e822ec02227\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\transition-28.0.0-alpha3.aar\4aad64565d8d4b808fbe8e822ec02227\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-alpha3.aar\3d936b0d7b9ead2823dd50a90c04bf7a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-alpha3.aar\3d936b0d7b9ead2823dd50a90c04bf7a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-alpha3.aar\ec1e884d3ce9c5139e472bc656a51a79\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-alpha3.aar\ec1e884d3ce9c5139e472bc656a51a79\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-alpha3.aar\77cfdc5bcb8bc17804f06fe547661197\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-alpha3.aar\77cfdc5bcb8bc17804f06fe547661197\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-alpha3.aar\e74be4c730e6f7a971cb63a18e2e2b92\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-alpha3.aar\e74be4c730e6f7a971cb63a18e2e2b92\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-alpha3.aar\b6c99219ade3addf95a25cec2c28850c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-alpha3.aar\b6c99219ade3addf95a25cec2c28850c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-alpha3.aar\794a0b776b257dac3735b4c0827bd43d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-alpha3.aar\794a0b776b257dac3735b4c0827bd43d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-alpha3.aar\3ff0e98daf9b70f722fee4945d8e2c6e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-alpha3.aar\3ff0e98daf9b70f722fee4945d8e2c6e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-alpha3.aar\5adaf7293b08aa1212fad61cf23c9a64\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-alpha3.aar\5adaf7293b08aa1212fad61cf23c9a64\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-alpha3.aar\04ca290954246f6b7e946c0b39233b20\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-alpha3.aar\04ca290954246f6b7e946c0b39233b20\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-alpha3.aar\105dd3b89a7a3c540c5deaf218b98d8e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-alpha3.aar\105dd3b89a7a3c540c5deaf218b98d8e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0-alpha3.aar\e5396910e965ee23ecc0d6187d6084a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0-alpha3.aar\e5396910e965ee23ecc0d6187d6084a3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\917bf3573afaae0e4740697a19048e8f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\917bf3573afaae0e4740697a19048e8f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-alpha3.aar\52b9c6d7d83d771c6822890a5662963b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-alpha3.aar\52b9c6d7d83d771c6822890a5662963b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-alpha3.aar\6953197de73589b84596918a32d0e592\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-alpha3.aar\6953197de73589b84596918a32d0e592\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-alpha3.aar\b051b049fce5a32e7c6a1e1abd466ca7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-alpha3.aar\b051b049fce5a32e7c6a1e1abd466ca7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\print-28.0.0-alpha3.aar\fd942746e379770cdeb767b483165e6a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\print-28.0.0-alpha3.aar\fd942746e379770cdeb767b483165e6a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\0c7c22e4e856bc0f7640e33fee8c6370\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\0c7c22e4e856bc0f7640e33fee8c6370\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-alpha3.aar\20659285da96cdc02f69893e33c93586\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-alpha3] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-alpha3.aar\20659285da96cdc02f69893e33c93586\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\c872a489ed07ac968d36f18220bdf634\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\c872a489ed07ac968d36f18220bdf634\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\72cbf94cbd5e59da92f2cc02804ea513\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\rgalatti\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\72cbf94cbd5e59da92f2cc02804ea513\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:25:5-43
+INJECTED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:25:5-43
+	android:targetSdkVersion
+		INJECTED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:25:5-43
+		INJECTED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:25:15-40
+		INJECTED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:26:2-64
+	android:name
+		ADDED from C:\Users\rgalatti\AndroidStudioProjects\FIFA Matches\app\src\main\AndroidManifest.xml:26:19-61
