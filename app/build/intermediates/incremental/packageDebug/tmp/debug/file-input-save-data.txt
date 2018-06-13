@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Jun 13 16:02:41 BRT 2018
+#Wed Jun 13 17:30:47 BRT 2018
 1.base=C\:\\Users\\rgalatti\\AndroidStudioProjects\\FIFA Matches\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13
 2.path=classes.dex
 0.baseType=DIRECTORY

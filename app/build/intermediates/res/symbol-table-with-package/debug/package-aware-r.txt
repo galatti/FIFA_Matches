@@ -1389,10 +1389,11 @@ int string players_edit 0x7f0c0046
 int string random_all 0x7f0c0047
 int string random_club 0x7f0c0048
 int string random_player 0x7f0c0049
-int string random_team 0x7f0c004a
-int string search_menu_title 0x7f0c004b
-int string status_bar_notification_info_overflow 0x7f0c004c
-int string teams_edit 0x7f0c004d
+int string random_russia_2018 0x7f0c004a
+int string random_team 0x7f0c004b
+int string search_menu_title 0x7f0c004c
+int string status_bar_notification_info_overflow 0x7f0c004d
+int string teams_edit 0x7f0c004e
 int style AlertDialog_AppCompat 0x7f0d0000
 int style AlertDialog_AppCompat_Light 0x7f0d0001
 int style Animation_AppCompat_Dialog 0x7f0d0002

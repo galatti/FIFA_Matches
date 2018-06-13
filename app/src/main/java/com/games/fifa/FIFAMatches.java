@@ -59,6 +59,7 @@ public class FIFAMatches extends ListActivity {
 	private static final int RANDOM_CLUB_ID = Menu.FIRST + 7;
 	private static final int RANDOM_TEAM_ID = Menu.FIRST + 8;
 	private static final int RANDOM_PLAYER_ID = Menu.FIRST + 9;
+    private static final int RANDOM_RUSSIA2018_ID = Menu.FIRST + 10;
 
 	public static final int NOT_STARTED = -1;
 	public static final String TBD = "TBD";
@@ -73,6 +74,7 @@ public class FIFAMatches extends ListActivity {
 	private static final int NUM_GAMES = 15;
 	private static final int CLUB_FACTOR = 3;
 	private static final int TEAM_FACTOR = 0;
+    private static final int RUSSIA_2018_FACTOR = 18;
 
 	private String[] playerName = new String[NUM_PLAYERS + 1];
 	private String[] email = new String[NUM_PLAYERS];
@@ -99,16 +101,16 @@ public class FIFAMatches extends ListActivity {
 	private void fillData() {
 		String versus;
 
-		playerName[0] = settings.getString("player0", "Alberto");
-		playerName[1] = settings.getString("player1", "Alexandre");
-		playerName[2] = settings.getString("player2", "Marco");
-		playerName[3] = settings.getString("player3", "Rodrigo");
+		playerName[0] = settings.getString("player1", "Alberto");
+		playerName[1] = settings.getString("player2", "Alexandre");
+		playerName[2] = settings.getString("player3", "Marco");
+		playerName[3] = settings.getString("player4", "Rodrigo");
 
-		email[0] = settings.getString("email0", "alberto_pacifico@yahoo.com");
-		email[1] = settings.getString("email1",
+		email[0] = settings.getString("email1", "alberto_pacifico@yahoo.com");
+		email[1] = settings.getString("email2",
 				"alexandre_olivieri@hotmail.com");
-		email[2] = settings.getString("email2", "marcoforini@hotmail.com");
-		email[3] = settings.getString("email3", "galatti@gmail.com");
+		email[2] = settings.getString("email3", "marcoforini@hotmail.com");
+		email[3] = settings.getString("email4", "galatti@gmail.com");
 
 		for (int i = 0; i < NUM_GAMES; i++) {
 			team[i][0] = settings.getString("game" + i + "team0", TBD);
@@ -158,9 +160,9 @@ public class FIFAMatches extends ListActivity {
 					|| playerID[position][0] == NUM_PLAYERS) {
 				i.setTextColor(Color.RED);
 			} else if (score[position][0] == NOT_STARTED) {
-				i.setTextColor(Color.YELLOW);
+				i.setTextColor(Color.BLACK);
 			} else {
-				i.setTextColor(Color.GREEN);
+				i.setTextColor(Color.BLUE);
 			}
 
 			return i;
@@ -223,6 +225,7 @@ public class FIFAMatches extends ListActivity {
 		menu.add(0, RANDOM_PLAYER_ID, 0, R.string.random_player);
 		menu.add(0, RANDOM_CLUB_ID, 0, R.string.random_club);
 		menu.add(0, RANDOM_TEAM_ID, 0, R.string.random_team);
+        menu.add(0, RANDOM_RUSSIA2018_ID, 0, R.string.random_russia_2018);
 	}
 
 	@Override
@@ -248,28 +251,34 @@ public class FIFAMatches extends ListActivity {
 			randomTeam(info.position, TEAM_FACTOR);
 			fillData();
 			return true;
+		case RANDOM_RUSSIA2018_ID:
+		    randomPlayer(info.position);
+            randomTeam(info.position, RUSSIA_2018_FACTOR);
+            fillData();
+			return true;
 		}
-		;
 
 		return super.onContextItemSelected(item);
 	}
 
 	private void randomTeam(int position, int factor) {
 		int team0, team1;
-		Random randon = new Random();
+		Random random = new Random();
 		String[] teams;
 
-		// club or national teams
-		if (factor == TEAM_FACTOR) {
+        if (factor == RUSSIA_2018_FACTOR) {
+            teams = russia2018TeamList;
+
+        } else if (factor == TEAM_FACTOR) {
 			teams = teamList;
 		} else {
 			teams = clubList;
 		}
 
-		team0 = randon.nextInt(teams.length);
+		team0 = random.nextInt(teams.length);
 
 		do {
-			team1 = randon.nextInt(teams.length);
+			team1 = random.nextInt(teams.length);
 		} while (team0 == team1);
 
 		SharedPreferences.Editor editor = settings.edit();
@@ -544,14 +553,72 @@ public class FIFAMatches extends ListActivity {
 		}
 	}
 
-	public static final String[] clubList = { "Arsenal", "Aston Villa",
-			"Chelsea", "Liverpool", "Manchester City", "Manchester United",
-			"Bordeaux", "Lyon", "OM", "Bayer Munichen", "Wolfsburg",
-			"Fiorentina", "Inter", "Juventus", "Milan", "Roma", "Barcelona",
-			"Real Madrid", "Sevilla", "Valencia", "Villareal",
+	public static final String[] clubList = {
+			"Arsenal",
+			"Aston Villa",
+			"Chelsea",
+			"Liverpool",
+			"Manchester City",
+			"Manchester United",
+			"Bordeaux",
+			"Lyon",
+			"OM",
+			"Bayer Munichen",
+			"Wolfsburg",
+			"Fiorentina",
+			"Inter",
+			"Juventus",
+			"Milan", "Roma",
+			"Barcelona",
+			"Real Madrid",
+			"Sevilla",
+			"Valencia",
+			"Villareal",
 			"Atletico Madrid" };
 
-	public static final String[] teamList = { "Argentina", "Brasil",
-			"Inglaterra", "Franca", "Alemanha", "Italia", "Holanda",
-			"Portugal", "Espanha" };
+	public static final String[] teamList = {
+			"Argentina",
+			"Brasil",
+			"Inglaterra",
+			"Franca",
+			"Alemanha",
+			"Italia",
+			"Holanda",
+			"Portugal",
+			"Espanha" };
+
+	public static final String[] russia2018TeamList = {
+			"Rússia",
+			"Brasil",
+			"Irã",
+			"Japão",
+			"México",
+			"Bélgica",
+			"Coreia do Sul",
+			"Arábia Saudita",
+			"Alemanha",
+			"Inglaterra",
+			"Espanha",
+			"Nigéria",
+			"Costa Rica",
+			"Polônia",
+			"Egito",
+			"Islândia",
+			"Sérvia",
+			"França",
+			"Portugal",
+			"Argentina",
+			"Colômbia","" +
+			"Uruguai",
+			"Panamá",
+			"Senegal",
+			"Marrocos",
+			"Tunísia",
+			"Suíça",
+			"Croácia",
+			"Suécia",
+			"Dinamarca",
+			"Austrália",
+			"Peru" };
+
 };
